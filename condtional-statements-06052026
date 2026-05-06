@@ -44,4 +44,14 @@ while x <= 10:
     l.append(x)
     x = x+1
 print(l)                
-                
+####********************************************************
+##Taking the five names and store in list
+l = []
+x = 1
+
+while x <= 5:
+    n = input("enter name:")
+    l.append(n)
+    x = x + 1
+print(l)
+####********************************************************
