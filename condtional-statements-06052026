@@ -1,0 +1,41 @@
+##06-05-2026
+n = eval(input("Enter the number"))
+if n>=0:
+    if n==0:
+        print("zero")
+    else:
+        print("postive")
+else:
+    print("negative")
+###********************************************************  
+  n = eval(input("Enter the number"))
+if n>=0:
+    if n==0:
+        print("zero")
+elif n>0:
+        print("postive")
+else:
+    print("negative")
+###********************************************************    
+pin = 123
+bal = 8500
+user_pin = eval(input("Enter pin:"))
+if user_pin == pin:
+    option = eval(input("enter the option 1 for balance inquiry , 2 for withdrawl"))
+    if option ==1:
+            print("Present balance is :", bal)
+    elif option  == 2:
+            withdrawal_amount = eval(input("enter amount:"))
+            if withdrawal_amount<=bal:
+                print("Transaction sucessfull :",bal-withdrawal_amount)
+                balance = bal-withdrawal_amount
+                print("Balance after transaction :",balance)
+            else:
+                print("Insufficient balance")
+    else:
+        print("invalid option")
+else:
+    print("Invalid pin")
+###********************************************************    
+                
+                
