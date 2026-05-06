@@ -36,6 +36,12 @@ if user_pin == pin:
         print("invalid option")
 else:
     print("Invalid pin")
-###********************************************************    
-                
+###********************************************************   
+#printing output in list
+x = 1
+l = []
+while x <= 10:
+    l.append(x)
+    x = x+1
+print(l)                
                 
